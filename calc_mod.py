@@ -6,7 +6,7 @@ from scipy import ndimage
 def calc(image,hz,dx):
     for i in range(image.shape[0]):
         for j in range(image.shape[1]):
-            if(image[i][j] < 40):
+            if(image[i][j] < 45):
                 image[i][j] = 0
             else:
                 image[i][j] = 255

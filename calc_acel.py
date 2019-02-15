@@ -10,7 +10,7 @@ parser.add_argument('-imname', help='Image name')
 parser.add_argument('-hz')
 parser.add_argument('-dx')
 args = parser.parse_args()
-print(args.imname)
+
 
 def calc_acel(imname, hz, dx):
     
